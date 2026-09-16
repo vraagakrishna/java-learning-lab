@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        File csvFile = new File("java-learning-lab", "countries.csv");
+        File csvFile = new File("countries.csv");
 
         try (BufferedReader reader = new BufferedReader(new FileReader(csvFile))) {
             reader.readLine();
@@ -76,7 +76,7 @@ public class Main {
         System.out.println("Largest Region: " + largest.region + " (" + largest.country + ")");
         System.out.println("Filtered Records: " + filtered.size());
 
-        File outputFile = new File("java-learning-lab", "results.json");
+        File outputFile = new File("results.json");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
             writer.write("{\n");
             writer.write("  \"totalPopulation\": " + totalPopulation + ",\n");

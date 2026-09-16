@@ -1,0 +1,12 @@
+{
+  "totalPopulation": 2138800000,
+  "averagePopulation": 4.3648979591836736E7,
+  "totalArea": 4581330.0,
+  "averageArea": 93496.5306122449,
+  "largestRegion": {
+    "country": "China",
+    "region": "Sichuan",
+    "population": 84000000,
+    "area": 486000.0
+  }
+}
