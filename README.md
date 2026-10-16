@@ -1,110 +1,84 @@
 # Java Data Processing Exercise
 
-## Goal
+## Overview
 
-Build a small Java program that reads data from a CSV file, processes it, and writes the results to a JSON file.
+A Java application that reads country and region data from a CSV file, performs statistical analysis, organizes records, and exports the results to a JSON file.
 
-The exercise focuses on:
+## Features
 
-- Reading data from a file
-- Writing data to a file
-- Using Java Collections
-- Filtering and sorting data
-- Performing numerical calculations
-- Working with objects
+- **CSV Processing:** Reads country, region, population, and area data from `countries.csv`.
+- **Data Validation:** Skips blank or malformed rows and handles invalid numeric values.
+- **Statistical Analysis:** Calculates total population, average population, total area, and average area.
+- **Region Analysis:** Identifies the largest region by area.
+- **Data Filtering:** Filters regions with a population greater than 50 million and an area greater than 100,000.
+- **Country-wise Grouping:** Groups all regions under their respective countries.
+- **Alphabetical Sorting:** Sorts country names and region names alphabetically.
+- **JSON Export:** Generates `results.json` containing statistics, largest-region details, filtered record count, and regions per country.
+- **Error Handling:** Handles file access errors and selected data-validation errors.
+- **OOP Design:** Separates the data model, analysis logic, and JSON report generation into dedicated classes.
+- **Reusable Constants:** Stores filenames and filtering thresholds as constants.
+- **JSON Escaping:** Handles common special characters in country and region names.
 
----
+## Project Structure
 
-## Input Data
-
-You are given a `countries.csv` file containing information about countries and their regions.
-
-Each row contains:
-
-```csv
-country,region,population,area_km2
+```text
+├── Main.java
+├── countries.csv
+├── results.json
+└── README.md
 ```
 
-Example:
+- `Main.java` — Application entry point, data model, analysis logic, and JSON report writer.
+- `countries.csv` — Input dataset containing country and region information.
+- `results.json` — Generated report containing the analysis results.
+- `README.md` — Project documentation.
 
-```csv
-India,Maharashtra,126000000,307713
-India,Uttar Pradesh,241000000,243286
-India,Bihar,131000000,94163
-India,West Bengal,101000000,88752
-Japan,Tokyo,14000000,2194
-Japan,Osaka,8800000,1905
-Japan,Aichi,7500000,5173
-China,Guangdong,127000000,179800
-China,Shandong,101000000,157100
-China,Sichuan,84000000,486000
+## Requirements
+
+- Java Development Kit (JDK).
+- `countries.csv` in the project directory.
+
+## How to Run
+
+Compile the program:
+
+```bash
+javac Main.java
 ```
 
-The full dataset is provided separately.
+Execute the application:
 
----
-
-## Tasks
-
-Write a program that:
-
-### 1. Read the data
-
-Read all records from the CSV file and store them using appropriate Java objects and Collections.
-
-### 2. Filter
-
-Find regions based on conditions such as:
-
-- Population greater than 50 million
-- Area greater than 100,000 km²
-- Regions belonging to a particular country
-
-### 3. Sort
-
-Sort the data by:
-
-- Population
-- Area
-- Region name
-
-Try sorting in both ascending and descending order.
-
-### 4. Calculate
-
-Use the data to calculate things such as:
-
-- Total population
-- Average population
-- Total area
-- Average area
-- Population density (`population / area`)
-- Largest region by area
-- Most populated region
-
-### 5. Write the results
-
-Write your processed data and/or calculated results to a JSON file.
-
-For example:
-
-```json
-[
-  {
-    "country_name": "India",
-    "regions": ["Bihar", "Maharashtra", "Uttar Pradesh", "West Bengal"]
-  }
-]
+```bash
+java Main
 ```
 
-You can decide what additional calculated information would be useful to include in the JSON.
+The program displays the analysis results in the terminal and generates `results.json` in the current working directory.
 
----
+## Output Summary
 
-## Notes
+The generated report includes:
 
-There is no single "correct" implementation.
+- Total and average population.
+- Total and average area.
+- Largest region by area, including its country, population, and area.
+- Number of records matching the filtering conditions.
+- All regions grouped by country, with countries and region names sorted alphabetically.
 
-Choose the Collections, object structure, sorting, filtering, and JSON structure that you think are appropriate.
+## Java Concepts Demonstrated
 
-The main requirement is that the program **reads real data, processes it, and produces a new file containing the results**.
+- Object-Oriented Programming (OOP).
+- Encapsulation and abstraction.
+- Classes, objects, constructors, and getter methods.
+- Java Collections: `List`, `ArrayList`, `Map`, and `TreeMap`.
+- Iteration, filtering, grouping, and sorting.
+- File handling using `BufferedReader` and `BufferedWriter`.
+- Exception handling and try-with-resources.
+- Constants using `static final`.
+- JSON report generation and character escaping.
+
+## Future Improvements
+
+- Calculate population density and identify the most populated region.
+- Add unit tests for calculations and data processing.
+- Use dedicated CSV and JSON libraries.
+- Add configurable filtering and sorting options.
