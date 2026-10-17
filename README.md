@@ -22,16 +22,26 @@ A Java application that reads country and region data from a CSV file, performs 
 ## Project Structure
 
 ```text
-├── Main.java
-├── countries.csv
-├── results.json
-└── README.md
+java-learning-lab/
+│
+├── Main.java                 # Main entry point of the application
+├── CountryRegion.java        # Represents country and region data
+├── CountryDataAnalyzer.java  # Loads, validates, filters, and analyzes data
+├── JsonReportWriter.java     # Generates the JSON report
+├── countries.csv             # Input dataset containing country and region records
+├── results.json              # Generated JSON report
+└── README.md                 # Project documentation
 ```
 
-- `Main.java` — Application entry point, data model, analysis logic, and JSON report writer.
-- `countries.csv` — Input dataset containing country and region information.
-- `results.json` — Generated report containing the analysis results.
-- `README.md` — Project documentation.
+### File Descriptions
+
+- **Main.java:** Starts the application and coordinates data processing and report generation.
+- **CountryRegion.java:** Defines the data model for country-region records.
+- **CountryDataAnalyzer.java:** Reads CSV data, validates records, calculates statistics, filters regions, and groups and sorts regions alphabetically by country.
+- **JsonReportWriter.java:** Exports statistical results and country-wise region lists to `results.json`.
+- **countries.csv:** Contains the input data used by the application.
+- **results.json:** Stores the generated analysis results in JSON format.
+- **README.md:** Documents the project, its features, and instructions for running it.
 
 ## Requirements
 
