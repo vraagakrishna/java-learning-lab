@@ -1,0 +1,50 @@
+country,region,population,area_km2
+India,Maharashtra,126000000,307713
+India,Uttar Pradesh,241000000,243286
+India,Bihar,131000000,94163
+India,West Bengal,101000000,88752
+India,Madhya Pradesh,87000000,308252
+India,Tamil Nadu,77000000,130060
+India,Rajasthan,82000000,342239
+India,Karnataka,68000000,191791
+India,Gujarat,72000000,196024
+India,Kerala,36000000,38852
+China,Guangdong,127000000,179800
+China,Shandong,101000000,157100
+China,Henan,99000000,167000
+China,Sichuan,84000000,486000
+China,Jiangsu,85000000,107200
+Japan,Tokyo,14000000,2194
+Japan,Osaka,8800000,1905
+Japan,Aichi,7500000,5173
+Japan,Hokkaido,5100000,83424
+Indonesia,West Java,50000000,35378
+Indonesia,East Java,42000000,47800
+Indonesia,Central Java,37000000,32800
+Indonesia,North Sumatra,15000000,72981
+Pakistan,Punjab,127000000,205344
+Pakistan,Sindh,56000000,140914
+Pakistan,Khyber Pakhtunkhwa,40000000,101741
+Pakistan,Balochistan,15000000,347190
+Bangladesh,Dhaka,47000000,3067
+Bangladesh,Chattogram,34000000,33904
+Bangladesh,Rajshahi,19000000,18154
+Bangladesh,Khulna,17000000,22285
+Vietnam,Ho Chi Minh City,9500000,2095
+Vietnam,Hanoi,8500000,3359
+Vietnam,Thanh Hoa,3700000,11130
+Vietnam,Nghe An,3400000,16490
+Thailand,Bangkok,11000000,1569
+Thailand,Chiang Mai,1800000,20107
+Thailand,Nakhon Ratchasima,2600000,20495
+Thailand,Chon Buri,1600000,4363
+Nepal,Bagmati,6100000,20800
+Nepal,Koshi,5000000,25900
+Nepal,Lumbini,5100000,22400
+Sri Lanka,Western,5900000,3684
+Sri Lanka,Central,2800000,5674
+Sri Lanka,Southern,2700000,5383
+Malaysia,Selangor,7200000,8104
+Malaysia,Johor,4200000,19210
+Malaysia,Sarawak,2800000,124450
+Malaysia,Sabah,3500000,73631
