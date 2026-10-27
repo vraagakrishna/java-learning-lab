@@ -1,0 +1,229 @@
+{
+  "totalRecords": 49,
+  "totalPopulation": 2138800000,
+  "averagePopulation": 4.3648979591836736E7,
+  "totalArea": 4581330.0,
+  "averageArea": 93496.5306122449,
+  "largestRegion": {
+    "country": "China",
+    "region": "Sichuan",
+    "population": 84000000,
+    "area": 486000.0
+  },
+  "filteredRecords": 14,
+  "regionsPerCountry": {
+    "Bangladesh": [
+      "Chattogram",
+      "Dhaka",
+      "Khulna",
+      "Rajshahi"
+    ],
+    "China": [
+      "Guangdong",
+      "Henan",
+      "Jiangsu",
+      "Shandong",
+      "Sichuan"
+    ],
+    "India": [
+      "Bihar",
+      "Gujarat",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Uttar Pradesh",
+      "West Bengal"
+    ],
+    "Indonesia": [
+      "Central Java",
+      "East Java",
+      "North Sumatra",
+      "West Java"
+    ],
+    "Japan": [
+      "Aichi",
+      "Hokkaido",
+      "Osaka",
+      "Tokyo"
+    ],
+    "Malaysia": [
+      "Johor",
+      "Sabah",
+      "Sarawak",
+      "Selangor"
+    ],
+    "Nepal": [
+      "Bagmati",
+      "Koshi",
+      "Lumbini"
+    ],
+    "Pakistan": [
+      "Balochistan",
+      "Khyber Pakhtunkhwa",
+      "Punjab",
+      "Sindh"
+    ],
+    "Sri Lanka": [
+      "Central",
+      "Southern",
+      "Western"
+    ],
+    "Thailand": [
+      "Bangkok",
+      "Chiang Mai",
+      "Chon Buri",
+      "Nakhon Ratchasima"
+    ],
+    "Vietnam": [
+      "Hanoi",
+      "Ho Chi Minh City",
+      "Nghe An",
+      "Thanh Hoa"
+    ]
+  },
+  "taskB": {
+    "uniqueCountryCount": 11,
+    "uniqueCountryNames": [
+      "Bangladesh",
+      "China",
+      "India",
+      "Indonesia",
+      "Japan",
+      "Malaysia",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka",
+      "Thailand",
+      "Vietnam"
+    ],
+    "uniqueRegionCount": 49,
+    "uniqueRegionNames": [
+      "Aichi",
+      "Bagmati",
+      "Balochistan",
+      "Bangkok",
+      "Bihar",
+      "Central",
+      "Central Java",
+      "Chattogram",
+      "Chiang Mai",
+      "Chon Buri",
+      "Dhaka",
+      "East Java",
+      "Guangdong",
+      "Gujarat",
+      "Hanoi",
+      "Henan",
+      "Ho Chi Minh City",
+      "Hokkaido",
+      "Jiangsu",
+      "Johor",
+      "Karnataka",
+      "Kerala",
+      "Khulna",
+      "Khyber Pakhtunkhwa",
+      "Koshi",
+      "Lumbini",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Nakhon Ratchasima",
+      "Nghe An",
+      "North Sumatra",
+      "Osaka",
+      "Punjab",
+      "Rajasthan",
+      "Rajshahi",
+      "Sabah",
+      "Sarawak",
+      "Selangor",
+      "Shandong",
+      "Sichuan",
+      "Sindh",
+      "Southern",
+      "Tamil Nadu",
+      "Thanh Hoa",
+      "Tokyo",
+      "Uttar Pradesh",
+      "West Bengal",
+      "West Java",
+      "Western"
+    ],
+    "repeatedRegionNames": [],
+    "perCountryRegionCounts": {
+      "Bangladesh": 4,
+      "China": 5,
+      "India": 10,
+      "Indonesia": 4,
+      "Japan": 4,
+      "Malaysia": 4,
+      "Nepal": 3,
+      "Pakistan": 4,
+      "Sri Lanka": 3,
+      "Thailand": 4,
+      "Vietnam": 4
+    },
+    "averageRegionalPopulationByCountry": {
+      "Bangladesh": 2.925E7,
+      "China": 9.92E7,
+      "India": 1.021E8,
+      "Indonesia": 3.6E7,
+      "Japan": 8850000.0,
+      "Malaysia": 4425000.0,
+      "Nepal": 5400000.0,
+      "Pakistan": 5.95E7,
+      "Sri Lanka": 3800000.0,
+      "Thailand": 4250000.0,
+      "Vietnam": 6275000.0
+    },
+    "combinedPopulationByCountry": {
+      "Bangladesh": 117000000,
+      "China": 496000000,
+      "India": 1021000000,
+      "Indonesia": 144000000,
+      "Japan": 35400000,
+      "Malaysia": 17700000,
+      "Nepal": 16200000,
+      "Pakistan": 238000000,
+      "Sri Lanka": 11400000,
+      "Thailand": 17000000,
+      "Vietnam": 25100000
+    },
+    "countryWithHighestCombinedPopulation": "India",
+    "queueProcessedRecordCount": 49,
+    "queueFifoVerified": true,
+    "mostPopulatedRegion": "Uttar Pradesh",
+    "mostPopulatedRegionCountry": "India",
+    "mostPopulatedRegionPopulation": 241000000,
+    "regionsAbove50Million": [
+      "Maharashtra (India)",
+      "Uttar Pradesh (India)",
+      "Bihar (India)",
+      "West Bengal (India)",
+      "Madhya Pradesh (India)",
+      "Tamil Nadu (India)",
+      "Rajasthan (India)",
+      "Karnataka (India)",
+      "Gujarat (India)",
+      "Guangdong (China)",
+      "Shandong (China)",
+      "Henan (China)",
+      "Sichuan (China)",
+      "Jiangsu (China)",
+      "Punjab (Pakistan)",
+      "Sindh (Pakistan)"
+    ],
+    "regionsAbove100Million": [
+      "Maharashtra (India)",
+      "Uttar Pradesh (India)",
+      "Bihar (India)",
+      "West Bengal (India)",
+      "Guangdong (China)",
+      "Shandong (China)",
+      "Punjab (Pakistan)"
+    ],
+    "totalPopulationFromArray": 2138800000
+  }
+}
